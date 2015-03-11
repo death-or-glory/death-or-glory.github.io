@@ -78,7 +78,7 @@ h4, h5, h6 {
 a {
   color:#C30000;
   font-weight:200;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 a:hover {
@@ -243,6 +243,9 @@ h1.header {
 	line-height: 1.3em;
 	border-bottom: none;
 	margin-top: 0;
+}
+h1.header :hover {
+    text-decoration: none;
 }
 
 
