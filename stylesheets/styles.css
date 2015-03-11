@@ -322,6 +322,11 @@ button {
   font: inherit;
 }
 
+button a {
+  color: #fff;
+  font: inherit;
+}
+
 button:hover {
 	background: #C3001D;
 	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
