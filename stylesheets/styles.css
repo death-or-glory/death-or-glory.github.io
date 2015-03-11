@@ -81,7 +81,7 @@ a {
   text-decoration: none;
 }
 
-a:not(.nounderline):hover {
+a:hover {
 	text-decoration: underline;
 }
 
@@ -286,7 +286,7 @@ header li {
 
 }
 
-header li:not(.nounderline).hover {
+header li:hover {
 	background: #C3001D;
 	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -326,7 +326,7 @@ button a {
   font: inherit;
 }
 
-button:not(.nounderline):hover {
+button:hover {
 	background: #C3001D;
 	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -352,7 +352,7 @@ a.github {
 	background: url(../images/octocat-small.png) no-repeat 1px;
 }
 
-a.buttons:not(.nounderline):hover {
+a.buttons:hover {
 	color: #fff;
 	text-decoration: none;
 }
